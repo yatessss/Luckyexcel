@@ -134,14 +134,14 @@ async function compile() {
         format: 'esm',
         name: 'LuckyExcel',
         inlineDynamicImports:true,
-        // sourcemap: true
+        sourcemap: true
     })
     bundle.write({
         file: pkg.main,
         format: 'cjs',
         name: 'LuckyExcel',
         inlineDynamicImports:true,
-        // sourcemap: true
+        sourcemap: true
     })
     // bundle.write({
     //     file: pkg.browser,
